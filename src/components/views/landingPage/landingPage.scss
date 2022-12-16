@@ -1,0 +1,40 @@
+.landing_page {
+  background-image: url("../../../assets/pcb-assets/LandingPage.jpeg");
+  min-height: 100%;
+  min-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+
+  .country_options {
+    display: flex;
+    gap: 10px;
+    width: max-content;
+    margin: auto;
+    margin-top: 25%;
+    margin-right: 10% !important;
+
+    .enter {
+      background: #e0e1e2 none !important;
+      margin: 0;
+      border: none;
+      border-radius: 4px;
+      height: 45px;
+      padding: 0 20px;
+    }
+
+    .country_select {
+      button {
+        background: #e0e1e2 none !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .country_options {
+    right: 5% !important;
+    margin-top: 120% !important;
+  }
+}
